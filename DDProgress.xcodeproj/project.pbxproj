@@ -450,6 +450,7 @@
 				5369C95419CC05930026750D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5369C95519CC05930026750D /* Build configuration list for PBXNativeTarget "DDProgressTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +459,7 @@
 				5369C95719CC05930026750D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

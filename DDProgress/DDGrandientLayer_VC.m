@@ -40,6 +40,7 @@
         self.edgesForExtendedLayout = UIRectEdgeNone;
         self.navigationController.navigationBar.translucent = NO;
     }
+     [[UINavigationBar appearance] setBarTintColor:[UIColor blackColor]];
 }
 
 - (void)viewDidLoad
@@ -48,11 +49,17 @@
     // Do any additional setup after loading the view.
     
     self.title = @"首页";
+    self.navigationController.view.backgroundColor = [UIColor blackColor];
 
-    DDProgressView *progressView = [[DDProgressView alloc] initWithFrame:(CGRect){0,64,320,1} backGroundColor:[UIColor blackColor]];
+    DDProgressView *progressView = [[DDProgressView alloc] initWithFrame:(CGRect){0,20,320,1} backGroundColor:[UIColor blackColor]];
+    
+    UIView *view = [[UIView alloc] initWithFrame:(CGRect){0,0,320,64}];
+    view.backgroundColor = [UIColor blackColor];
 
     UINavigationController *nav = self.navigationController;
     [nav.view addSubview:progressView];
+    
+//    [view addSubview:progressView];
     
     [progressView setProgress:0.5 duation:2 animated:YES];
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
@@ -65,6 +72,20 @@
     //.....also you can test the colorful method
     //[progressView stopColorful];  or
     //[progressView startColorful];
+    
+    
+    DDProgressView *progressView1 = [[DDProgressView alloc] initWithFrame:(CGRect){0,100,320,10} backGroundColor:[UIColor blackColor]];
+    
+    [self.view addSubview:progressView1];
+    
+    [progressView1 setProgress:0.5 duation:2 animated:YES];
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [progressView1 setProgress:0.8 duation:2 animated:YES];
+    });
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [progressView1 setProgress:1.0 duation:2 animated:YES];
+    });
     
 }
 
