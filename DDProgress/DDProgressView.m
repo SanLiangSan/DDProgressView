@@ -1,5 +1,5 @@
 /*
- * DDProgressView https://github.com/SanLiangSan/TVGAnimation
+ * DDProgressView https://github.com/SanLiangSan/DDProgressView
  *
  * Copyright (c) 2014 SanLiangSan
  *
