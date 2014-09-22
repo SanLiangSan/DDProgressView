@@ -13,3 +13,6 @@ Copy `DDProgressView .h / .m` to your project. Call the setProgress...method lik
 SanLiangSan:
 
 - Email: <254458886@qq.com>
+
+## License
+DDProgressView is available under the MIT license. 
