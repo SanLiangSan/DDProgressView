@@ -21,6 +21,7 @@
 		5369C94F19CC05930026750D /* DDProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5369C94E19CC05930026750D /* DDProgressTests.m */; };
 		5369C95C19CC05A80026750D /* DDProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5369C95919CC05A80026750D /* DDProgressView.m */; };
 		5369C95D19CC05A80026750D /* DDGrandientLayer_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5369C95B19CC05A80026750D /* DDGrandientLayer_VC.m */; };
+		53E29DCA19CFC7EE004C20DD /* DDProgress.gif in Resources */ = {isa = PBXBuildFile; fileRef = 53E29DC919CFC7EE004C20DD /* DDProgress.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		5369C95919CC05A80026750D /* DDProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDProgressView.m; sourceTree = "<group>"; };
 		5369C95A19CC05A80026750D /* DDGrandientLayer_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDGrandientLayer_VC.h; sourceTree = "<group>"; };
 		5369C95B19CC05A80026750D /* DDGrandientLayer_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDGrandientLayer_VC.m; sourceTree = "<group>"; };
+		53E29DC919CFC7EE004C20DD /* DDProgress.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = DDProgress.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				5369C95919CC05A80026750D /* DDProgressView.m */,
 				5369C95A19CC05A80026750D /* DDGrandientLayer_VC.h */,
 				5369C95B19CC05A80026750D /* DDGrandientLayer_VC.m */,
+				53E29DC919CFC7EE004C20DD /* DDProgress.gif */,
 				5369C93B19CC05930026750D /* Images.xcassets */,
 				5369C93019CC05930026750D /* Supporting Files */,
 			);
@@ -230,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53E29DCA19CFC7EE004C20DD /* DDProgress.gif in Resources */,
 				5369C93419CC05930026750D /* InfoPlist.strings in Resources */,
 				5369C93C19CC05930026750D /* Images.xcassets in Resources */,
 			);
