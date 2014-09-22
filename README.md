@@ -2,7 +2,7 @@
 
 DDProgressView is a colorful progressView with a animation.
 
-![Demo GIF](https://raw.githubusercontent.com/fastred/HamburgerButton/master/demo.gif)
+![](./DDProgress.gif)
 
 ## Usage
 
