@@ -34,6 +34,8 @@
 // -----------------------------------------------------------------------
 static float defaultProgressAnimationTime = 0.25f;
 
+static float colorChangeTime = 0.08f;
+
 #define kDefaultMaskColor [UIColor blackColor]
 // -----------------------------------------------------------------------
 
@@ -133,7 +135,7 @@ static float defaultProgressAnimationTime = 0.25f;
     
     CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:@"colors"];
     animation.toValue = shiftedColors;
-    animation.duration = 0.08;
+    animation.duration = colorChangeTime;
     animation.removedOnCompletion = YES;
     animation.fillMode = kCAFillModeForwards;
     animation.delegate = self;
