@@ -12,5 +12,4 @@ Copy `DDProgressView .h / .m` to your project. Call the setProgress...method lik
 
 SanLiangSan:
 
-* [QQ](254458886)
-* [@arekholko on Twitter](https://twitter.com/arekholko)
+- Email: <254458886@qq.com>
