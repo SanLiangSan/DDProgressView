@@ -21,6 +21,7 @@
 		5369C94F19CC05930026750D /* DDProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5369C94E19CC05930026750D /* DDProgressTests.m */; };
 		5369C95C19CC05A80026750D /* DDProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5369C95919CC05A80026750D /* DDProgressView.m */; };
 		5369C95D19CC05A80026750D /* DDGrandientLayer_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5369C95B19CC05A80026750D /* DDGrandientLayer_VC.m */; };
+		53943AB019D15E8600E8443C /* DDProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53943AAF19D15E8600E8443C /* DDProgress.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		5369C95919CC05A80026750D /* DDProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDProgressView.m; sourceTree = "<group>"; };
 		5369C95A19CC05A80026750D /* DDGrandientLayer_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDGrandientLayer_VC.h; sourceTree = "<group>"; };
 		5369C95B19CC05A80026750D /* DDGrandientLayer_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDGrandientLayer_VC.m; sourceTree = "<group>"; };
+		53943AAE19D15E8500E8443C /* DDProgress-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DDProgress-Bridging-Header.h"; sourceTree = "<group>"; };
+		53943AAF19D15E8600E8443C /* DDProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDProgress.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,10 +120,12 @@
 				5369C93919CC05930026750D /* DDAppDelegate.m */,
 				5369C95819CC05A80026750D /* DDProgressView.h */,
 				5369C95919CC05A80026750D /* DDProgressView.m */,
+				53943AAF19D15E8600E8443C /* DDProgress.swift */,
 				5369C95A19CC05A80026750D /* DDGrandientLayer_VC.h */,
 				5369C95B19CC05A80026750D /* DDGrandientLayer_VC.m */,
 				5369C93B19CC05930026750D /* Images.xcassets */,
 				5369C93019CC05930026750D /* Supporting Files */,
+				53943AAE19D15E8500E8443C /* DDProgress-Bridging-Header.h */,
 			);
 			path = DDProgress;
 			sourceTree = "<group>";
@@ -253,6 +258,7 @@
 				5369C95C19CC05A80026750D /* DDProgressView.m in Sources */,
 				5369C93A19CC05930026750D /* DDAppDelegate.m in Sources */,
 				5369C93619CC05930026750D /* main.m in Sources */,
+				53943AB019D15E8600E8443C /* DDProgress.swift in Sources */,
 				5369C95D19CC05A80026750D /* DDGrandientLayer_VC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,10 +376,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DDProgress/DDProgress-Prefix.pch";
 				INFOPLIST_FILE = "DDProgress/DDProgress-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DDProgress/DDProgress-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -383,10 +393,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DDProgress/DDProgress-Prefix.pch";
 				INFOPLIST_FILE = "DDProgress/DDProgress-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DDProgress/DDProgress-Bridging-Header.h";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
