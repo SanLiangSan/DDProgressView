@@ -14,7 +14,6 @@ Copy the `DDProgressView.h` and `DDProgressView.m` file to your project. Call th
 								  backGroundColor:[UIColor blackColor]];
     [progressView setProgress:0.5 duation:2 animated:YES];
 ```
----
 ## Author
 
 SanLiangSan:
