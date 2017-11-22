@@ -1,6 +1,6 @@
 # DDProgressView
 
-DDProgressView is a colorful progressView with a animation writen by `Object-C`.
+DDProgressView is a colorful progressView with a animation.
 
 ![](./DDProgress.gif)
 
@@ -14,10 +14,6 @@ Copy the `DDProgressView.h` and `DDProgressView.m` file to your project. Call th
 								  backGroundColor:[UIColor blackColor]];
     [progressView setProgress:0.5 duation:2 animated:YES];
 ```
-##See Also
-	DDProgressView writen by `Swift`
-- DDProgress: <https://github.com/SanLiangSan/DDProgressView-Swift>
-
 ## Author
 
 SanLiangSan:
