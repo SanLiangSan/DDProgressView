@@ -18,7 +18,7 @@
 // test add 123 01
 // test add 02
 // dev change
-// bug fix
+// bug fix bugfix2
 @implementation DDAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
