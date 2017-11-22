@@ -15,7 +15,6 @@
 #import "DDAppDelegate.h"
 #import "DDGrandientLayer_VC.h"
 
-// test add
 @implementation DDAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
