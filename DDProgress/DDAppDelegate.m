@@ -20,7 +20,7 @@
 // dev change
 // feature 01
 // bug fixhahahahha
-
+//release
 @implementation DDAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
